@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunke_commerce_app=self.webpackChunke_commerce_app||[]).push([[941],{2941:(e,t,u)=>{u.r(t),u.d(t,{default:()=>n});var c=u(6746),l=u(3090);function n(){return(0,c.useEffect)((()=>(document.title="About",()=>{document.title="Default Title"})),[]),(0,l.jsx)("div",{children:"About"})}}}]);
+//# sourceMappingURL=941.ab47798b.chunk.js.map
