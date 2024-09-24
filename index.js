@@ -56,6 +56,11 @@ app.use(xss());
 
 app.use(hpp());
 //protectedRoute.protectedApiRoute,
+app.get("/", (req, res) => {
+  res.json({
+    message: "Hello World",
+  });
+});
 app.use("/api", apiUserRouter, apiProductRouter, apiCategoryRouter);
 app.use(
   "/mvc",
@@ -76,15 +81,3 @@ app.use(globalErrors);
 const port = process.env.PORT || 8000;
 app.listen(port, () => console.log(port));
 db();
-//security
-//client do too many requests express-rate-limit
-//denial of service DoS attack
-//A brute force attack
-
-//helmet
-//NoSql injection
-//express-mongo-sanitize
-//XSS (Cross Site Scripting)
-//XSS-clean
-//Parameter Pollution
-//hpp =>
